@@ -1,0 +1,28 @@
+html, 
+body, 
+*{
+  margin: auto; 
+  padding: 0;
+  box-sizing: border-box;
+  font-size:10px;
+}
+
+
+:root {  
+  --dark: #000100;
+  --light: #ffffff; 
+  --dark-color: #ffffff;
+  --light-color: #000100;
+}
+
+
+body {
+  background-color: var(--dark);
+  color: var(--dark-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: var(--light);
+  color: var(--light-color);
+}

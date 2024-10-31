@@ -1,15 +1,15 @@
-import "/style.css";
+import '/theme.css';
 
-const DOMselectors = {
+const DOMSelectors = {
     button: document.querySelector(".btn"),
 };
 
-DOMselectors.button.addEventListener("click", function(event) {
-    event.preventDefault();
-    
-    // Toggle theme classes
-    document.body.classList.toggle("warm");
-    document.body.classList.toggle("cool");
+DOMSelectors.button.addEventListener("click", function (event){
 
-    console.log("Theme changed!");
+    event.preventDefault();
+
+    document.body.classList.toggle('light');
+    
+    console.log("Theme has been changed.");
+
 });
