@@ -9,20 +9,24 @@ body,
 
 
 :root {  
-  --dark: #000100;
-  --light: #ffffff; 
-  --dark-color: #ffffff;
-  --light-color: #000100;
+  --dark: #020d18;
+  --light: #21a6ff; 
+  --dark-color: #00ffd5;
+  --light-color: #061f36;
+  --lightcard: rgb(67, 255, 246);
 }
 
 
 body {
   background-color: var(--dark);
   color: var(--dark-color);
-  transition: background-color 0.3s, color 0.3s;
 }
 
 body.light {
   background-color: var(--light);
   color: var(--light-color);
+}
+
+body.light .card {
+  background-color: var(--lightcard);
 }
