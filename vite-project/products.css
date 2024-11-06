@@ -22,5 +22,20 @@
     justify-content: space-around;
     background-image: url();
     transition: all 0.5s;
-   
+   overflow: hidden;
 }
+
+.card-img {
+    width: 82%;
+    height: 82%;
+    object-fit: cover;
+    flex-grow: 1;
+    }
+
+    .card-header {
+    margin-top: 1.2rem;
+    }
+
+    .card-price {
+        margin-bottom: 1.2rem;
+    }
